@@ -1,0 +1,18 @@
+{
+    "name": "root/guestbook",
+    "description": "A guestbook app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gregg Christofferson",
+            "email": "gechristofferson@gmail.com"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^1.6"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    }
+}
