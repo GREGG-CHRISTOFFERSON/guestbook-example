@@ -3,6 +3,11 @@
 require_once '../vendor/autoload.php';
 
 $database = new \Medoo\Medoo([ 'database_type' => 'sqlite', 'database_file' => '../storage/database.db' ]);
+$comment = new \SitePoint\Comment($database);
+$comment->setEmail('bruno@skvorc.me')
+    ->setName('Bruno Skvorc')
+    ->setComment('Hooray! Saving comments works!')
+    ->save();
 
 ?>
 
