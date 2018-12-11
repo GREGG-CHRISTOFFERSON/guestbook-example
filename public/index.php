@@ -58,6 +58,7 @@ $comments = $database->select("comments", "*", ['ORDER' => ['submissionDate' => 
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
